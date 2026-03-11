@@ -45,3 +45,6 @@ snapshot > 類似儲存
 5. cmd ssh user@ip
 6. sudo apt update
 7. sudo apt install apache2 -y
+
+### 防火牆
+* <img width="1187" height="485" alt="image" src="https://github.com/user-attachments/assets/38fde00b-cda5-47dc-87f2-ce68d0622621" />
