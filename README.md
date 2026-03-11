@@ -30,12 +30,18 @@ snapshot > 類似儲存
 #### UI介面
 * suspend 休眠    
 * restart 重啟  
-* power off 關機  
+* power off 關機
+* pin to dash  釘選
 #### 終端機指令
 * poweroff 立即關機  
 * halt -p  
 * shutdown -h now 可調整時間  
 
-### 釘選
-* pin to dash  
-
+### 連線
+1. sudo apt install openssh-server -y
+2. sudo systemctl status ssh
+3. sudo systemctl start ssh
+4. sudo systemctl enable ssh
+5. cmd ssh user@ip
+6. sudo apt update
+7. sudo apt install apache2 -y
