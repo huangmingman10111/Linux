@@ -5,7 +5,8 @@ Practice of Linux Operating System
 ## Linux基本指令
 * 目錄、檔案 ls  
 * 目前ip ip address show  
-* 使用者身分查詢 id +使用者名稱  
+* 使用者身分查詢 id +使用者名稱
+* | 管道 > 類似生產線  
 ---
 ## Linux基本架構
 * kernel > shell(bash、tcsh、sh...) > application  
@@ -48,3 +49,12 @@ snapshot > 類似儲存
 
 ### 防火牆
 * <img width="1187" height="485" alt="image" src="https://github.com/user-attachments/assets/38fde00b-cda5-47dc-87f2-ce68d0622621" />
+
+### 軟體管理工具 apt
+* sudo apt remove server > 移除
+
+### 
+* grep 把有符合後面關鍵字的那一個row,顯示出來, grep -v:去除包含關鍵字的那一個row
+  * <img width="854" height="236" alt="image" src="https://github.com/user-attachments/assets/07cb08cd-12d9-4b20-9a92-5b23e9968f57" />
+* 查詢系統已經安裝的軟體
+  * <img width="836" height="150" alt="image" src="https://github.com/user-attachments/assets/1390b861-25a7-4100-b9a9-5c5368fdacef" />
